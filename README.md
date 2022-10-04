@@ -7,7 +7,7 @@ Este repositório contém dados de votos válidos de todas as candidaturas que d
 Para carregar os dados usando `R` ou `Python`, não é necessário baixar o arquivo no repositório, basta rodar:
 
 ```R
-link <- ""
+link <- "https://github.com/meirelesff/eleicoes_2022/blob/main/votos_presidente_1t_2022.csv?raw=true"
 dados <- readr::read_csv(link)
 ```
 
@@ -16,6 +16,6 @@ Ou:
 ```Python
 import pandas as pd
 
-link = ''
+link = 'https://github.com/meirelesff/eleicoes_2022/blob/main/votos_presidente_1t_2022.csv?raw=true'
 dados = pd.read_csv(link, delim=';')
 ```
